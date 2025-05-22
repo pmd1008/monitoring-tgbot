@@ -1,3 +1,3 @@
 #!/bin/bash
-nohup /home/pmd/monitoring-bot/monitoring-bot.sh > /home/pmd/monitoring-bot/bot.log 2>&1 &
-echo "Бот запущен. Логи: /home/pmd/monitoring-bot/bot.log"
+nohup ./monitoring-bot.sh > ./bot.log 2>&1 &
+echo "Бот запущен. Логи: ./bot.log"
